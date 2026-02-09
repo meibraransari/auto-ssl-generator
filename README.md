@@ -137,7 +137,7 @@ yourdomain.crt: OK
 * Certificate file: `chain.pem`
 * Private key file: `yourdomain.key`
 
-## 📦 Trust the Root CA
+## 📦 Trust the Root CA in All types of devices (Windows, Linux, Android, iOS, Docker, etc.)
 
 <details>
 <summary>Installation Steps for Windows</summary>
