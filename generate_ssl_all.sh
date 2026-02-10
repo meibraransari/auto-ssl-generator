@@ -73,7 +73,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [[ -z "$DOMAINS" ]]; then
-  echo "❌ --domains is required"
+  echo "Script made by @DevOpsInAction - Ibrar Ansari"
   echo "Usage: ./generate_ssl_all.sh --domains <domains>"
   echo "Example:"
   echo "./generate_ssl_all.sh --domains devopsinaction.lab"
