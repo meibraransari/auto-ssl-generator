@@ -99,7 +99,9 @@ chmod +x *.sh
 ./generate_ssl.sh 
 # Support Domain + Windcard Domain
 
-./generate_ssl_all.sh
+./generate_ssl_all.sh --domains devopsinaction.lab --wildcard
+./generate_ssl_all.sh --domains api.lab.local,admin.lab.local
+./generate_ssl_all.sh --domains example.com,example.internal --wildcard --ip 10.0.0.5
 # ✅ What this version supports
 # ✔ Multiple domains via CLI
 # ✔ Wildcard-only OR non-wildcard mode
