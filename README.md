@@ -18,6 +18,9 @@ Perfect for:
 - Learning how PKI and certificate chains work
 
 
+[![Watch on Youtube](https://i.ytimg.com/vi/CmMoc9d0xtc/maxresdefault.jpg)](https://youtu.be/CmMoc9d0xtc)
+
+
 ## 🚀 Features
 
 - Fully automated SSL generation using OpenSSL
