@@ -90,13 +90,23 @@ cd auto-ssl-generator
 2. Make the script executable:
 
 ```bash
-chmod +x generate_ssl.sh
+chmod +x *.sh
 ```
 
 3. Run it:
 
 ```bash
-./generate_ssl.sh
+./generate_ssl.sh 
+# Support Domain + Windcard Domain
+
+./generate_ssl_all.sh
+# ✅ What this version supports
+# ✔ Multiple domains via CLI
+# ✔ Wildcard-only OR non-wildcard mode
+# ✔ Proper SAN handling (browser-correct)
+# ✔ One primary domain (CN) + many SANs
+# ✔ Optional IP SAN
+# ✔ Safe defaults + clear usage
 ```
 
 4. After successful run, you’ll see:

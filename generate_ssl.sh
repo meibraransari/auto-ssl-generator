@@ -17,7 +17,7 @@ set -e
 #########################
 # Global Variables
 #########################
-MAIN_DOMAIN="devopsinaction.lab"
+MAIN_DOMAIN="devopsinaction.lab"  # Support Wildcard/Subdomain also (e.g. *.devopsinaction.lab or anything.devopsinaction.lab)
 DOMAIN_IP="192.168.1.10"
 DAYS_VALID=3650
 CA_PASSWORD=""
