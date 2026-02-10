@@ -74,6 +74,12 @@ done
 
 if [[ -z "$DOMAINS" ]]; then
   echo "❌ --domains is required"
+  echo "Usage: ./generate_ssl_all.sh --domains <domains>"
+  echo "Example:"
+  echo "./generate_ssl_all.sh --domains devopsinaction.lab"
+  echo "./generate_ssl_all.sh --domains devopsinaction.lab --wildcard"
+  echo "./generate_ssl_all.sh --domains api.lab.local,admin.lab.local"
+  echo "./generate_ssl_all.sh --domains example.com,example.internal --wildcard --ip 10.0.0.5"
   exit 1
 fi
 

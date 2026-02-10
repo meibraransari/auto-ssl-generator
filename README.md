@@ -99,6 +99,7 @@ chmod +x *.sh
 ./generate_ssl.sh 
 # Support Domain + Windcard Domain
 
+./generate_ssl_all.sh --domains devopsinaction.lab
 ./generate_ssl_all.sh --domains devopsinaction.lab --wildcard
 ./generate_ssl_all.sh --domains api.lab.local,admin.lab.local
 ./generate_ssl_all.sh --domains example.com,example.internal --wildcard --ip 10.0.0.5
@@ -108,7 +109,6 @@ chmod +x *.sh
 # ✔ Proper SAN handling (browser-correct)
 # ✔ One primary domain (CN) + many SANs
 # ✔ Optional IP SAN
-# ✔ Safe defaults + clear usage
 ```
 
 4. After successful run, you’ll see:
